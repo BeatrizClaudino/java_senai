@@ -1,17 +1,10 @@
-package entidade;
+package formativa;
 
 public class Main {
 
-
 	public static void main(String[] args) {
-		Pessoa p = new Pessoa();
-		p.menu();
-		p.Pergunta();
-		
-		
+		Veiculo v = new Veiculo(100, 10, 0);
+		v.escolhaMenu();
 	}
 
-	}
-
-
-
+}
